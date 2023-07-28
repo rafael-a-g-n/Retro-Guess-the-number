@@ -207,7 +207,12 @@ h1 {
   }
 
   main {
+    margin-top: 4rem;
     height: auto;
+  }
+
+  .right{
+    margin-top: 3rem;
   }
 }
 
