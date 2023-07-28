@@ -117,3 +117,98 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+
+  header {
+    height: 25vh;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .between {
+    font-size: 1.2rem;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .again {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .number {
+    font-size: 4rem;
+    width: 10rem;
+    padding: 2rem 0rem;
+    bottom: 0;
+  }
+
+  main {
+    height: 75vh;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 80%;
+  }
+
+  .guess {
+    font-size: 3rem;
+    padding: 1.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .right {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+
+  .message {
+    margin-bottom: 4rem;
+  }
+
+  .label-score,
+  .label-highscore {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .between {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .again {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .number {
+    font-size: 3rem;
+    width: 8rem;
+    padding: 1rem 0;
+  }
+
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  main {
+    height: auto;
+  }
+}
+
+
