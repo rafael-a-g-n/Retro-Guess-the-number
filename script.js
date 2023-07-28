@@ -14,7 +14,6 @@ let highScore = 0;
 
 button.addEventListener('click', () => {
    let guessNumber = Number(guess.value) 
-    console.log(guessNumber, typeof guessNumber);
 
        // When there is no number selected
     if (!guessNumber) {
